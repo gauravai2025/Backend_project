@@ -7,47 +7,32 @@ A RESTful Task Management API built with Node.js, Express, and MongoDB featuring
 
 ## Table of Contents
 
-<<<<<<< HEAD
-* [Project Overview](#project-overview)
-* [Setup Instructions](#setup-instructions)
-=======
 - [Project Overview](#project-overview)  
-- [Setup Instructions](#setup-instructions)  
+- [Setup Instructions](#setup-instructions)
+  -  [Local Setup](#local-setup)
+  - [Docker Setup](#docker-setup)  
 - [Environment Variables](#environment-variables)  
 - [API Documentation](#api-documentation)  
   - [User API Endpoints](#user-api-endpoints)  
   - [Task API Endpoints](#task-api-endpoints)
   - [API Response Format](#api-response-format)
   - [Standard Https Status Code used](#standard-https-status-code-used)
-- [Git Version Control](#git-version-control)  
+- [ Version Control](#version-control)  
 - [Bonus Features Implemented](#bonus-features-implemented)
->>>>>>> ec54651f5d67496dbe2fb713e38760e758612d72
-
-  * [Local Setup](#local-setup)
-  * [Docker Setup](#docker-setup)
-* [Environment Variables](#environment-variables)
-* [API Documentation](#api-documentation)
-
-  * [User API Endpoints](#user-api-endpoints)
-  * [Task API Endpoints](#task-api-endpoints)
-* [Error Handling](#error-handling)
-* [Version Control](#version-control)
-* [Bonus Features](#bonus-features)
 
 ---
 
 ## Project Overview
 
-It is a simple yet robust backend API that allows you to manage users and tasks similar to basic features of Trello or Todoist. It supports JWT authentication for secure access. Now with Docker support for seamless containerized deployment.
+It is a simple yet robust backend API that allows you to manage users and tasks similar to basic features of Trello or Todoist. It supports JWT authentication for secure access with Docker support for seamless containerized deployment.
 
 ---
 
 ## Setup Instructions
 
-### 🛠️ Local Setup
+###  Local Setup
 
-<details>
-<summary>Click to expand</summary>
+
 
 #### Key Dependencies
 
@@ -99,7 +84,7 @@ Server will run at `http://localhost:8000`
 
 ---
 
-### 🐳 Docker Setup
+### Docker Setup
 
 This project supports Docker-based deployment for better consistency across environments.
 
@@ -181,7 +166,7 @@ services:
 | `ACCESS_TOKEN_EXPIRY`  | Access token expiration time     | 15m                           |
 | `REFRESH_TOKEN_EXPIRY` | Refresh token expiration time    | 7d                            |
 
-
+## Api Documentation
 ### User API Endpoints
 
 | Method | Endpoint               | Description                  | Request Body                                                                                     | Authentication |
@@ -225,13 +210,10 @@ services:
 
 ## API Response Format
 
-<<<<<<< HEAD
-=======
 #### All API responses (success or error) follow a standard structure for consistency
 
 ### Success Response Format
 
->>>>>>> ec54651f5d67496dbe2fb713e38760e758612d72
 ```
  constructor(statusCode, data, message = "Success") {
         this.statusCode = statusCode;
@@ -277,43 +259,30 @@ constructor(
 | 500  | Internal Server Error – A generic server-side error occurred             |
 
 
-<<<<<<< HEAD
 
 ## Version Control
-
-*(resolved conflict and kept structure)*
-=======
-
-## Git Version Control
->>>>>>> ec54651f5d67496dbe2fb713e38760e758612d72
 
 ```bash
 # Commit example
 git commit -m "feat: add JWT authentication middleware"
 git commit -m "fix: correct task status validation"
 ```
-
-<<<<<<< HEAD
-* `main` for production
-* `develop` for staging
-* Feature branches: `feature/auth`, `feature/tasks`, etc.
-
-Repository: [Backend Assignment](https://github.com/gauravai2025/Backend_assignment)
+Repository: [Backend Project](https://github.com/gauravai2025/Backend_project)
 =======
-Repository: [Backend Assignment](https://github.com/gauravai2025/Backend_assignment)
-=======
+
 * The project uses Git for version control.
 * Commits follow meaningful, clear messages.
->>>>>>> ec54651f5d67496dbe2fb713e38760e758612d72
+
 
 ---
 
 ## Bonus Features Implemented
 
-✅ JWT Authentication with access/refresh tokens
-✅ Comprehensive error handling
-✅ API documentation with examples
-✅ Pagination and filtering
-✅ Environment configuration
-✅ Docker containerization support 🐳
-✅ Automated testing (Postman/thunder client)
+- ✅ JWT Authentication with access/refresh tokens  
+- ✅ Comprehensive error handling  
+- ✅ API documentation with examples  
+- ✅ Pagination and filtering  
+- ✅ Environment configuration  
+- ✅ Docker containerization support  
+- ✅ Automated testing (Postman/thunder client)  
+
