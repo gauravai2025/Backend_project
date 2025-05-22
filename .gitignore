@@ -1,0 +1,18 @@
+# Dependency directory
+node_modules/
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+
+# Optional npm cache
+.npm/
+
+
+# VS Code settings (optional, ignore if you want to share settings)
+.vscode/
+
