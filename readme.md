@@ -1,5 +1,5 @@
 
-# Backend_assignment
+# Softblend Backend Intern assignment
 
 A RESTful Task Management API built with Node.js, Express, and MongoDB featuring user and task management with JWT-based authentication. Now supports Docker containerization for easier deployment.
 
@@ -19,7 +19,6 @@ A RESTful Task Management API built with Node.js, Express, and MongoDB featuring
   - [Standard Https Status Code used](#standard-https-status-code-used)
 - [ Version Control](#version-control)  
 - [Bonus Features Implemented](#bonus-features-implemented)
-
 ---
 
 ## Project Overview
@@ -31,8 +30,6 @@ It is a simple yet robust backend API that allows you to manage users and tasks 
 ## Setup Instructions
 
 ###  Local Setup
-
-
 
 #### Key Dependencies
 
@@ -50,7 +47,7 @@ This project uses the following main Node.js packages:
 To install all dependencies:
 
 ```bash
-npm install
+npm install package-name
 ```
 
 #### Local Installation
@@ -75,12 +72,10 @@ REFRESH_TOKEN_EXPIRY=7d
 3. **Run the server**
 
 ```bash
-npm start
+npm run dev
 ```
 
 Server will run at `http://localhost:8000`
-
-</details>
 
 ---
 
